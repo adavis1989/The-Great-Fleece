@@ -1,29 +1,3 @@
-using UnityEditor;
-
-namespace Cinemachine.Editor
-{
-    [CustomEditor(typeof(CinemachineTrackedDolly))]
-    internal sealed class CinemachineTrackedDollyEditor : UnityEditor.Editor
-    {
-        private CinemachineTrackedDolly Target { get { return target as CinemachineTrackedDolly; } }
-        private static readonly string[] m_excludeFields = new string[] { "m_Script" };
-
-        public override void OnInspectorGUI()
-        {
-            serializedObject.Update();
-            DrawPropertiesExcluding(serializedObject, m_excludeFields);
-            serializedObject.ApplyModifiedProperties();
-        }
-
-        [DrawGizmo(GizmoType.Active | GizmoType.InSelectionHierarchy, typeof(CinemachineTrackedDolly))]
-        private static void DrawTrackeDollyGizmos(CinemachineTrackedDolly target, GizmoType selectionType)
-        {
-            if (target.IsValid)
-            {
-                CinemachinePath path = target.m_Path as CinemachinePath;
-                if (path != null)
-                    CinemachinePathEditor.DrawPathGizmos(path, selectionType);
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:66a8f6f8ccfb708c18ba109a2c2096b7605b6e885185141e126b6e5fa478afa0
+size 1095

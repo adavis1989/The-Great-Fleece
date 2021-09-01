@@ -1,31 +1,3 @@
-using System;
-using UnityEngine;
-using UnityEngine.Playables;
-using UnityEngine.Timeline;
-
-namespace Cinemachine.Timeline
-{
-    [Serializable]
-    [TrackClipType(typeof(CinemachineShot))]
-    [TrackMediaType(TimelineAsset.MediaType.Script)]
-    [TrackBindingType(typeof(CinemachineBrain))]
-    [TrackColor(0.53f, 0.0f, 0.08f)]
-    public class CinemachineTrack : TrackAsset
-    {
-        public override Playable CreateTrackMixer(
-            PlayableGraph graph, GameObject go, int inputCount)
-        {
-            // Hack to set the display name of the clip to match the vcam
-            foreach (var c in GetClips())
-            {
-                CinemachineShot shot = (CinemachineShot)c.asset;
-                CinemachineVirtualCameraBase vcam = shot.VirtualCamera.Resolve(graph.GetResolver());
-                c.displayName = vcam == null ? "CinemachineShot" : vcam.Name;
-            }
-
-            var mixer = ScriptPlayable<CinemachineMixer>.Create(graph);
-            mixer.SetInputCount(inputCount);
-            return mixer;
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1156b5f8be394dd0fb3e6c3c532d3c034ba8d5e531247bb39000313fed12164b
+size 1055
