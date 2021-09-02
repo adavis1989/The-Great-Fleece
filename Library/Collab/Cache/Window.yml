@@ -15,11 +15,13 @@ MonoBehaviour:
   SimpleSelectedItems:
     m_Keys:
     - Assets/The Great Fleece/Game/Timeline.meta
+    - Assets/The Great Fleece/Game/Timeline/Game_Over_Timeline.playable
+    - Assets/The Great Fleece/Game/Timeline/Game_Over_Timeline.playable.meta
     - Assets/The Great Fleece/Game/Timeline/Sleeping_Guard_Timeline.playable
     - Assets/The Great Fleece/Game/Timeline/Sleeping_Guard_Timeline.playable.meta
     - Assets/The Great Fleece/Game/_Scenes/Main.unity
     - 
-    m_Values: 0000000000
+    m_Values: 00000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
