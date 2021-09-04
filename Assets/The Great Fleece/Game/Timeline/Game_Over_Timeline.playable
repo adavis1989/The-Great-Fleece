@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 1697446793060130941}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: -2943056226785752396}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -447,6 +447,31 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events: []
+--- !u!114 &-2943056226785752396
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
+  m_Name: Virtual Camera Group
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: -5696195076915427083}
+  - {fileID: 4459804486069395014}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
 --- !u!114 &-1321056077379378149
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -488,7 +513,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 1697446793060130941}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -527,10 +552,8 @@ MonoBehaviour:
   m_Tracks:
   - {fileID: -8189300338256592494}
   - {fileID: 8731708159855200612}
-  - {fileID: -5696195076915427083}
-  - {fileID: 4459804486069395014}
-  - {fileID: -7552010479722806647}
-  - {fileID: -688451286800257730}
+  - {fileID: -2943056226785752396}
+  - {fileID: 1697446793060130941}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -719,6 +742,31 @@ AnimationClip:
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events: []
+--- !u!114 &1697446793060130941
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
+  m_Name: UI Element Group
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: -7552010479722806647}
+  - {fileID: -688451286800257730}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
 --- !u!114 &1826668625112970053
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1094,7 +1142,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: -2943056226785752396}
   m_Children: []
   m_Clips: []
   m_Markers:
