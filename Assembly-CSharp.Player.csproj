@@ -142,6 +142,9 @@
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoother.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Core\CinemachineVirtualCameraBase.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\The Great Fleece\Game\Scripts\Player.cs" />
+    <Compile Include="Assets\The Great Fleece\Game\Scripts\CameraTrigger.cs" />
+    <Compile Include="Assets\The Great Fleece\Game\Scripts\LookAtPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\The Great Fleece\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
