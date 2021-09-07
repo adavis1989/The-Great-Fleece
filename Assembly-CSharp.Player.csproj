@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\The Great Fleece\Game\Scripts\GuardAI.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Components\FxaaComponent.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Behaviours\CinemachinePath.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Behaviours\CinemachineExternalCamera.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Blackboard\Blackboard.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Behaviours\CinemachineFreeLook.cs" />
+    <Compile Include="Assets\The Great Fleece\Game\Scripts\CameraTrigger.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Components\UserLutComponent.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Core\NoiseSettings.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Timeline\CinemachineMixer.cs" />
@@ -78,6 +80,7 @@
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Core\CinemachineBlenderSettings.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\The Great Fleece\Game\Scripts\LookAtPlayer.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Components\CinemachineTrackedDolly.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
@@ -120,6 +123,7 @@
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Components\GrainComponent.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\PostFX\CinemachinePostFX.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\The Great Fleece\Game\Scripts\Player.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Timeline\CinemachineTrack.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\PostProcessingContext.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Components\CinemachineBasicMultiChannelPerlin.cs" />
@@ -142,9 +146,7 @@
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoother.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Core\CinemachineVirtualCameraBase.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\The Great Fleece\Game\Scripts\Player.cs" />
-    <Compile Include="Assets\The Great Fleece\Game\Scripts\CameraTrigger.cs" />
-    <Compile Include="Assets\The Great Fleece\Game\Scripts\LookAtPlayer.cs" />
+    <Compile Include="Assets\The Great Fleece\Game\Scripts\Eyes.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\The Great Fleece\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
