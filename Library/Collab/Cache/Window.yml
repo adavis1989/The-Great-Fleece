@@ -14,17 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/The Great Fleece/Game/Animations/Character/Guard/Guard_Controller.controller
-    - Assets/The Great Fleece/Game/Animations/Character/Guard/Guard_Controller.controller.meta
+    - Assets/The Great Fleece/Game/Animations/Character/Darren/Darren.controller
+    - Assets/The Great Fleece/Game/Prefabs/Coin 1.prefab
+    - Assets/The Great Fleece/Game/Prefabs/Coin 1.prefab.meta
     - Assets/The Great Fleece/Game/Scripts/Eyes.cs
-    - Assets/The Great Fleece/Game/Scripts/Eyes.cs.meta
     - Assets/The Great Fleece/Game/Scripts/GuardAI.cs
-    - Assets/The Great Fleece/Game/Scripts/GuardAI.cs.meta
     - Assets/The Great Fleece/Game/Scripts/LookAtPlayer.cs
-    - Assets/The Great Fleece/Game/Timeline/Game_Over_Timeline.playable
+    - Assets/The Great Fleece/Game/Scripts/Player.cs
+    - Assets/The Great Fleece/Game/Scripts/VoiceOverTrigger.cs
+    - Assets/The Great Fleece/Game/Scripts/VoiceOverTrigger.cs.meta
+    - Assets/The Great Fleece/Game/Timeline/Intro_Timeline.playable
     - Assets/The Great Fleece/Game/_Scenes/Main.unity
     - 
-    m_Values: 00000000000000000000
+    m_Values: 000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

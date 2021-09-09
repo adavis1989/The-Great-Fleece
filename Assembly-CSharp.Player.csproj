@@ -86,6 +86,7 @@
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\The Great Fleece\Game\Scripts\Eyes.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Components\DitheringComponent.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Components\CinemachineGroupComposer.cs" />
@@ -146,7 +147,7 @@
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoother.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Core\CinemachineVirtualCameraBase.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\The Great Fleece\Game\Scripts\Eyes.cs" />
+    <Compile Include="Assets\The Great Fleece\Game\Scripts\VoiceOverTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\The Great Fleece\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
