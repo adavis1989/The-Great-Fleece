@@ -70,6 +70,7 @@
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Components\UserLutComponent.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Core\NoiseSettings.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Timeline\CinemachineMixer.cs" />
+    <Compile Include="Assets\The Great Fleece\Game\Scripts\VoiceOverTrigger.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Components\CinemachineTransposer.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
@@ -147,7 +148,7 @@
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoother.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Core\CinemachineVirtualCameraBase.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\The Great Fleece\Game\Scripts\VoiceOverTrigger.cs" />
+    <Compile Include="Assets\The Great Fleece\Game\Scripts\SecurityCameras.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\The Great Fleece\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
