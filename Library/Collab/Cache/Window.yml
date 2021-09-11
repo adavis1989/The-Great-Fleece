@@ -20,9 +20,12 @@ MonoBehaviour:
     - Assets/The Great Fleece/Game/Animations/Cameras/Security Cam.anim
     - Assets/The Great Fleece/Game/Animations/Cameras/Security Cam.anim.meta
     - Assets/The Great Fleece/Game/Animations/Character/Darren/Darren.controller
+    - Assets/The Great Fleece/Game/Models/Dont_Touch/Materials/Environment/Cameras/Camera_Cone_Green_Light_Mat.mat
     - Assets/The Great Fleece/Game/Prefabs/Coin 1.prefab
     - Assets/The Great Fleece/Game/Prefabs/Coin 1.prefab.meta
     - Assets/The Great Fleece/Game/Scripts/Eyes.cs
+    - Assets/The Great Fleece/Game/Scripts/GrabKeyCardActivation.cs
+    - Assets/The Great Fleece/Game/Scripts/GrabKeyCardActivation.cs.meta
     - Assets/The Great Fleece/Game/Scripts/GuardAI.cs
     - Assets/The Great Fleece/Game/Scripts/LookAtPlayer.cs
     - Assets/The Great Fleece/Game/Scripts/Player.cs
@@ -30,10 +33,12 @@ MonoBehaviour:
     - Assets/The Great Fleece/Game/Scripts/SecurityCameras.cs.meta
     - Assets/The Great Fleece/Game/Scripts/VoiceOverTrigger.cs
     - Assets/The Great Fleece/Game/Scripts/VoiceOverTrigger.cs.meta
+    - Assets/The Great Fleece/Game/Timeline/Game_Over_Timeline.playable
     - Assets/The Great Fleece/Game/Timeline/Intro_Timeline.playable
+    - Assets/The Great Fleece/Game/Timeline/Sleeping_Guard_Timeline.playable
     - Assets/The Great Fleece/Game/_Scenes/Main.unity
     - 
-    m_Values: 00000000000000000000000000000000000000
+    m_Values: 000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

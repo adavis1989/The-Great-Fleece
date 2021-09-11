@@ -59,6 +59,7 @@
     <Compile Include="Assets\The Great Fleece\Game\Scripts\GuardAI.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Components\FxaaComponent.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\The Great Fleece\Game\Scripts\SecurityCameras.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Behaviours\CinemachinePath.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Core\ICinemachineCamera.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Core\CinemachineDebugLogger.cs" />
@@ -148,7 +149,7 @@
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Behaviours\CinemachineSmoother.cs" />
     <Compile Include="Assets\The Great Fleece\Cinemachine\Base\Runtime\Core\CinemachineVirtualCameraBase.cs" />
     <Compile Include="Assets\The Great Fleece\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\The Great Fleece\Game\Scripts\SecurityCameras.cs" />
+    <Compile Include="Assets\The Great Fleece\Game\Scripts\GrabKeyCardActivation.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\The Great Fleece\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
